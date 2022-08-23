@@ -21,12 +21,14 @@ Body {
   justify-content: center;
   height: 100%;
 }
-h1 {
+h1,
+h2 {
   color: var(--sun);
   background-color: var(--sand);
   border: 1px solid var(--asphalt);
   padding: 1px, 15px, 1px, 15px;
 }
+
 p {
   color: var(--tangerine);
 }
@@ -49,6 +51,12 @@ li:first-child {
 }
 li:nth-child(3) {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+li .done {
+  color: var(--sea);
+}
+li + li {
+  color: var(--lime);
 }
 div {
   color: var(--night-sky);
