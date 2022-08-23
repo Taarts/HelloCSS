@@ -33,6 +33,14 @@ p {
 p:hover {
   color: var(--lime);
 }
+p::first-letter {
+  font-size: 2em;
+}
+a::before {
+  content: '💮';
+  margin-left: 2px;
+  font-size: 20px;
+}
 li {
   text-decoration: underline;
 }
@@ -43,7 +51,7 @@ li:nth-child(3) {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 div {
-  color: blue;
+  color: var(--night-sky);
 }
 
 /* "id" use octothorpe */
