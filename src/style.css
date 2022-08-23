@@ -1,14 +1,37 @@
+:root {
+  font: 16px/1.5 sans-serif;
+  --sand: #f7f0da;
+  --bright-sky: #80ced2;
+  --sun: #d5562b;
+  --night-sky: #85577e;
+  --lime: b1d133;
+  --tangerine: #f99d1b;
+  --asphalt: #2f3737;
+  --sea: #5a9090;
+}
+html {
+  height: 100%;
+}
+
+Body {
+  margin: 0;
+  min-height: 100%;
+  background-color: var(--sand);
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 h1 {
-  color: blue;
-  background-color: yellow;
-  border: 1px solid black;
+  color: var(--sun);
+  background-color: var(--sand);
+  border: 1px solid var(--asphalt);
   padding: 1px, 15px, 1px, 15px;
 }
 p {
-  color: red;
+  color: var(--tangerine);
 }
 p:hover {
-  color: green;
+  color: var(--lime);
 }
 li {
   text-decoration: underline;
